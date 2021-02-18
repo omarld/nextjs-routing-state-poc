@@ -27,7 +27,6 @@ export default function Login() {
   }
   const handleSubmit = (evt) => {
     evt.preventDefault();
-    debugger;
     setName(inputName);
     setEmailAddress(inputEmailAddress);
     router.push('/profile')
