@@ -33,7 +33,7 @@ export default function Login() {
   }
 
   return (
-    <div onSubmit={handleSubmit}>
+    <div>
       <Head>
         <title>Use Login</title>
         <link rel="icon" href="/favicon.ico" />

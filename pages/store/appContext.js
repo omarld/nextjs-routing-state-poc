@@ -13,6 +13,8 @@ export function AppProvider ({children}) {
   return <AppContext.Provider value={app}>{children}</AppContext.Provider>
 }
 
+// export default AppProvider; // Need for class based components
+
 /**
  * App Provider Function Definition
  */
